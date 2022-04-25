@@ -2,22 +2,9 @@
 ini_set('display_errors', 0);
 ob_start();
 
-if (empty(getenv('BOT_TOKEN'))){
 $token = "5263375648:AAE1FDriTJgJp4TIaFL-pgtyGKYTmXKAHJg";
-} else {
-$token = getenv('BOT_TOKEN');
-}
-if (empty(getenv('ADMIN'))){
-$ADMIN = "ID_ADMIN";
-} else {
-$ADMIN = getenv('ADMIN');
-}
-if (empty(getenv('Channel_ID'))){
-$Channel_ID = "-1005263375648";
-} else {
-$Channel_ID = getenv('Channel_ID');
-}
 
+$Channel_ID = "-1005263375648";
 $input = file_get_contents('php://input');
 $update = json_decode($input);
 
