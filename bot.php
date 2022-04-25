@@ -3,7 +3,7 @@ ini_set('display_errors', 0);
 ob_start();
 
 if (empty(getenv('BOT_TOKEN'))){
-$token = "API_Token";
+$token = "5263375648:AAE1FDriTJgJp4TIaFL-pgtyGKYTmXKAHJg";
 } else {
 $token = getenv('BOT_TOKEN');
 }
@@ -13,7 +13,7 @@ $ADMIN = "ID_ADMIN";
 $ADMIN = getenv('ADMIN');
 }
 if (empty(getenv('Channel_ID'))){
-$Channel_ID = "Channel_ID";
+$Channel_ID = "-1005263375648";
 } else {
 $Channel_ID = getenv('Channel_ID');
 }
