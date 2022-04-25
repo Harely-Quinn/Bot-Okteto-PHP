@@ -1,5 +1,5 @@
-name: tg-web-bot-okteto
-image: okteto/tg-web-bot-okteto:php-dev
+name: Bot-Okteto-PHP
+image: okteto/Bot-Okteto-PHP:php-dev
 workdir: /app
 command: [ "php", "-S", "0.0.0.0:8080"]
 forward: 
