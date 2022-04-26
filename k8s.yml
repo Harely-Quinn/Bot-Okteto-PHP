@@ -15,19 +15,3 @@ spec:
       containers:
       - image: okteto/bot-okteto-php:php
         name: bot-okteto-php
-
----
-
-apiVersion: v1
-kind: Service
-metadata:
-  name: bot-okteto-php
-  annotations:
-    dev.okteto.com/auto-ingress: "true"
-spec:
-  type: ClusterIP  
-  ports:
-  - name: "bot-okteto-php"
-    port: 8080
-  selector:
-    app: bot-okteto-php
