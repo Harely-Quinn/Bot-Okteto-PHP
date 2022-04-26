@@ -10,7 +10,7 @@ spec:
   template:
     metadata:
       labels:
-        app: hello-world
+        app: bot-okteto-php
     spec:
       containers:
       - image: okteto/bot-okteto-php:php
