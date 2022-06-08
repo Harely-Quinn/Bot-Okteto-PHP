@@ -2,7 +2,7 @@
 ini_set('display_errors', 0);
 ob_start();
 
-$token = "5263375648:AAE1FDriTJgJp4TIaFL-pgtyGKYTmXKAHJg";
+$token = "5539182722:AAFF68E0X8OomkYd5hPM3EEEABoqSFoEugY";
 
 $Channel_ID = "-1005263375648";
 $input = file_get_contents('php://input');
